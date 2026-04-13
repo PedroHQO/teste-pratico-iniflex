@@ -31,14 +31,15 @@ O sistema executa sequencialmente as seguintes ações no console:
 
 O projeto foi organizado em pacotes para separar as responsabilidades:
 
-```text
-src/
-└── br/com/pedrohqo/desafio/
-    ├── modelo/
-    │   ├── Pessoa.java
-    │   └── Funcionario.java
-    └── principal/
-        └── Principal.java
+```
+    src/
+    └── br/com/pedrohqo/desafio/
+        ├── modelo/
+        │   ├── Pessoa.java
+        │   └── Funcionario.java
+        └── principal/
+            └── Principal.java
+```
 
 ## ⚙️ Como Executar
 Por ser uma aplicação baseada em Java Core, não há necessidade de gerenciadores de dependência (como Maven ou Gradle) ou servidores de aplicação.
